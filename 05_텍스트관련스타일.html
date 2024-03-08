@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트관련스타일</title>
+    <style>
+        #c {
+            color: red;
+            color: #fa6400;
+            color: rgb(116, 65, 42);
+            color: rgba(116, 65, 42, 0.6);
+        }
+
+        #td1 {
+            text-decoration: underline;
+        }
+
+        #td2 {
+            text-decoration: line-through;
+        }
+
+        #td3 {
+            text-decoration: overline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>텍스트 관련 스타일(text~)</h1>
+    <h2>color : 텍스트 색상 지정 시 사용</h2>
+    <pre id="c">
+        선택자 {
+            color: 색상명 | 16진수 | rgb(x,x,x) | rgba(x,x,x,x)
+        }
+    </pre>
+
+    <hr>
+
+    <h2>text-decoration: 텍스트에 줄을 긋거나 줄을 없앨 때 사용</h2>
+    <pre>
+        선택자 {
+            text-decoration: none | underline | overline | line-through;
+        }
+    </pre>
+
+    <ul>
+        <li id="td1">텍스트 영역 아래 줄</li>
+        <li id="td2">중간 줄</li>
+        <li id="td3">텍스트 영역 위에 줄</li>
+    </ul>
+
+    <a href="https://www.naver.com" target="_blank" style="text-decoration: none;">네이버</a>
+
+    <hr>
+
+    <h3>text-align: 텍스트 정렬할 때 사용</h3>
+    <pre>
+        선택자 {
+            text-align: left(기본) | right | center | justify
+        }
+    </pre>
+
+    <h4>왼쪽 정렬 (기본값)</h4>
+    <p style="text-align: left;">
+        What style will be used when there is more than one style specified for an HTML element?
+
+        All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number
+        one has the highest priority:
+
+        Inline style (inside an HTML element)
+        External and internal style sheets (in the head section)
+        Browser default
+        So, an inline style has the highest priority, and will override external and internal styles and browser
+        defaults.
+    </p>
+
+    <h4>양쪽 정렬</h4>
+    <p style="text-align: justify;">
+        What style will be used when there is more than one style specified for an HTML element?
+
+        All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number
+        one has the highest priority:
+
+        Inline style (inside an HTML element)
+        External and internal style sheets (in the head section)
+        Browser default
+        So, an inline style has the highest priority, and will override external and internal styles and browser
+        defaults.
+    </p>
+
+    <h4>중앙 정렬</h4>
+    <p style="text-align: center;">
+        What style will be used when there is more than one style specified for an HTML element?
+
+        All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number
+        one has the highest priority:
+
+        Inline style (inside an HTML element)
+        External and internal style sheets (in the head section)
+        Browser default
+        So, an inline style has the highest priority, and will override external and internal styles and browser
+        defaults.
+    </p>
+
+    <h4>오른쪽 정렬</h4>
+    <p style="text-align: right;">
+        What style will be used when there is more than one style specified for an HTML element?
+
+        All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number
+        one has the highest priority:
+
+        Inline style (inside an HTML element)
+        External and internal style sheets (in the head section)
+        Browser default
+        So, an inline style has the highest priority, and will override external and internal styles and browser
+        defaults.
+    </p>
+
+    <h3>line-height: 줄 간격 조절할 때 사용</h3>
+    <pre>
+        선택자 {
+            line-height: normal | px | em | %
+        }
+    </pre>
+
+    <h4>px 고정 단위 간격</h4>
+    <p style="line-height: 30px;">
+        Inline style (inside an HTML element)
+        External and internal style sheets (in the head section)
+        Browser default
+        So, an inline style has the highest priority, and will override external and internal styles and browser
+        defaults.
+    </p>
+
+</body>
+
+</html>
