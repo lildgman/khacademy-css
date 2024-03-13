@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 75%;
+    margin: 20px auto;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.banner,#login{
+    height: 130px;
+}
+
+footer {
+    border: 1px solid #b1aeae;
+}
+

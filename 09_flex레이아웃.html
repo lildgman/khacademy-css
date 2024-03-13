@@ -9,14 +9,17 @@
             border: 3px solid black;
             display: flex;
             flex-direction: row;
-            /* flex-direction: column | row */
+            /* flex-direction: column(수직) | row(수평) | row-reverse | column-reverse*/
+            /*자식요소들을 정렬 시 주축을 어떤 방향으로 할 것인가에 대한 속성*/
+
         }
         .flex-item {
             color: black;
             font-size: 50px;
             padding: 24px;
             text-align: center;
-            border: 1px solid red;    
+            border: 1px solid red;
+            width: 100px;
         }
 
         .item1 {
@@ -65,22 +68,21 @@
         .container3 {
             border: 3px solid black;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             width: 100%;
             height: 800px;
-            align-items: flex-start;
+            justify-content: space-between;
+            /* 주축의 정렬을 어떻게 할 것인가? */
+             /* flex-direction: row 일 떄
+                flex-end 상하기준 뒤쪽 정렬
+                flex_start 상하기준 앞쪽부터 정렬
+            */
+            align-items: flex-end;
+            /* 교차축의 정렬을 어떻게 할 것인가?*/
             /* flex-direction: row 일 떄
                 flex-end 상하기준 뒤쪽 정렬
                 flex_start 상하기준 앞쪽부터 정렬
-            
-            */
-
-            justify-content: flex-start;
-             /* flex-direction: row 일 떄
-                flex-end 상하기준 뒤쪽 정렬
-                flex_start 상하기준 앞쪽부터 정렬*/
-            
-            
+            */ 
         }
 
         .flex-item3 {
@@ -99,7 +101,7 @@
     </p>
 
     <div class="container">
-        <div class="flex-item item1">1번</div>
+        <div class="flex-item item1" style="flex: 1; max-width: 300px;">1번</div>
         <div class="flex-item item2">2번</div>
         <div class="flex-item item3">3번</div>
     </div>

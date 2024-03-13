@@ -1,0 +1,18 @@
+footer div{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.footer_1>a {
+    color: black;
+    font-weight: 800;
+}
+
+.location>p {
+    font-size: 13px;
+}
+
+.copyright>p{
+    text-align: center;
+    font-size: 12px;
+}
