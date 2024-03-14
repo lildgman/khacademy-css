@@ -46,12 +46,14 @@ ul, li, ol {
 
 .submenu {
     display: none;
+    background-color: white;
+    padding: 10px 0;
+
 }
-
-
 
 .menubar>li>a:hover+ul {
     display: block;
+
 }
 
 .menubar>li>ul:hover {

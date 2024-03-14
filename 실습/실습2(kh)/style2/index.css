@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section img {
+    width: 100%;
+    height: 100%;
+} */
+
+.bo {
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 15px auto;
+    padding: 10px 100px;
+}
+
+/*
+    header
+*/
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.search {
+    width: 350px;
+    height: 30px;
+    display: flex;
+}
+
+#header .search input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-right: 1px solid lightgray;
+}
+
+.search-img {
+    width: 30%;
+    height: 100%;
+    background: url(../실습문제2\ 이미지/search.png) no-repeat center/contain;
+}
+
+.search-img:hover{
+    cursor: pointer;
+}
+
+
+/* nav */
+#nav {
+    width: 100%;
+    padding: 20px 0;
+}
+
+#nav ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#nav ul li {
+    width: 20%;
+    list-style: none;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 800;
+}
+
+
+/* section */
+
+#section{
+    width: calc(70% - 10px);
+    float: left;
+}
+
+#aside {
+    width: 30%;
+    float: right;
+}
+
+#section1,#aside1{
+    height: 100px;
+}
+
+#section img {
+    height: 100%;
+    width: 100%;
+}
+
+#section2{
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+#section2 p {
+    font-size: 14px;
+}
+
+#section3 {
+    height: 250px;
+    background: url(../실습문제2\ 이미지/car.png) no-repeat center/contain;
+}
+
+
+/* aside */
+#aside1 .login {
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+
+#aside1 .login .input {
+    height: 100%;
+    width: 70%;
+}
+
+#aside1 .login .input>input{
+    width: 100%;
+    height: 50%;
+}
+
+#aside1 .login .btn {
+    width: 30%;
+    height: 100%;
+}
+
+#aside1 .login .btn>button {
+    width: 100%;
+    height: 100%;
+}
+
+#aside1 .aside1-menu {
+    width: 100%;
+    height: 25%;
+}
+
+#aside .aside1-menu ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside .aside1-menu ul li{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+#aside .aside1-menu ul li span:after {
+    content: "|";
+    color: black;
+    margin: 0px 5px;
+}
+
+#aside2 {
+    height: 310px;
+    background: url(../실습문제2\ 이미지/shopping.png) no-repeat center/contain;
+}
+
+#footer {
+    clear: both;
+    width: 100%;
+    padding: 15px;
+}
+
+#footer a{
+    font-weight: bold;
+}
+
+#footer ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer li span:after {
+    content: "|";
+    margin: 0px 10px;
+}
+
+.md-20 {
+    margin-bottom: 20px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+#copyright {
+    font-size: 12px;
+}
